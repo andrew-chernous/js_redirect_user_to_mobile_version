@@ -6,10 +6,10 @@
  * the README.txt next to this file.
  */
 
-(function ($, Drupal) {
+(function($, Drupal) {
 
   Drupal.behaviors.razgradbild = {
-    attach: function (context, settings) {
+    attach: function(context, settings) {
       if (screen.width <= 800) {
         window.location = "http://jquery.com/";
       }
